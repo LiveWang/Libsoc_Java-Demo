@@ -1,6 +1,5 @@
 # Try a Java Demo on Dragonboard410c
 
----
 
 Assume you are working on a dragonboard410c with Debian, you’ve attached sensors mezzanine to the baseboard, powered it up, attached it to an HDMI monitor with a keyboard and mouse, and you have connected to WiFi, or installed a USB-Ethernet dongle and have that hooked up. In any event, you must be connected to the Internet.
 
