@@ -21,7 +21,7 @@ This will run for a bit, depending on your connection. It will download a bunch 
     $ git clone https://github.com/jackmitch/libsoc.git<Enter>
     $ cd libsoc<Enter>
     $ autoreconf -i<Enter>
-    $ ./configure --enable-python=3 --enable-board=dragonboard410c ----with-board-configs <Enter>
+    $ ./configure --disable-debug --enable-python=3 --enable-board=dragonboard410c ----with-board-configs <Enter>
     $ make && sudo make install<Enter>
     $ sudo ldconfig /usr/local/lib<Enter>
 
@@ -31,7 +31,7 @@ Add following line to ~/.bashrc or /etc/bash.bashrc:
 
     export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.4/site-packages/
 
-Add following line to /etc/sudoers: 
+Add following line to /etc/sudoers: (If encounter error "no module named libsoc" when running sudo ./xx.py, this is a solution.)
 
     Defaults env_keep += "PYTHONPATH"
     (remove   Defaults !env_reset   from sudoers file if present)
