@@ -42,7 +42,7 @@ Add following line to /etc/sudoers: (If encounter error "no module named libsoc"
 
 #### Download led_touch.jar
 
-    $ git clone https://github.com/LiveWang/libsoc-jna-demo.git<Enter>
+    $ git clone https://github.com/LiveWang/libsoc_jna_demo.git<Enter>
 
 #### Setup the Hardware
 
@@ -51,7 +51,7 @@ Add following line to /etc/sudoers: (If encounter error "no module named libsoc"
 
 #### Run the Demo
 
-    $ cd libsoc-jna-demo
+    $ cd libsoc_jna_demo
     $ sudo java -jar led_touch.jar
 
 Tap the touch sensor with your finger. Tap the touch sensor several times in different speed (you can try tap very fast, or keep your finger on the touch sensor for several seconds and move away or any other speed).
