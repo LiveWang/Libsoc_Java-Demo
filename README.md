@@ -40,7 +40,7 @@ Add following line to /etc/sudoers: (If encounter error "no module named libsoc"
 
 ---
 
-#### Download led_touch.jar
+#### Download libsoc_jna_demo.git
 
     $ git clone https://github.com/LiveWang/libsoc_jna_demo.git<Enter>
 
